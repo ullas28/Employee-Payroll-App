@@ -168,7 +168,7 @@ select{
         flex-grow: 1;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin-bottom: 2opx;
+        margin-bottom: 20opx;
     }
     .submitButton{
         margin: 0;
@@ -178,3 +178,23 @@ select{
         align-items: flex-start;
     }
 }
+.button {
+    background-color: #d3d3d3;
+    border: none;
+    color: #595959  ;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #4a1212;
+    border-radius: 4px;
+  }
+  .button:hover {
+    background-color: #808080;
+  }
+  .submitButton:hover{
+    background-color: #82a70c;
+  }
