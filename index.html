@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+
     <head>
         <meta charset = "UTF-8">
         <meta name = "viewport"  content="width=device-width, initial-scale=1.0">
@@ -9,6 +11,8 @@ rel="stylesheet">
         <title>Employee payroll form</title>
         <script defer src="FormValidation.js"></script>
     </head>
+
+
     <body>
         <header class="header-content header">
             <div class="logo-content">
@@ -20,7 +24,7 @@ rel="stylesheet">
             </div>
         </header>
         <div class="form-content">
-            <form class="form" action="#" onsubmit="save();return false">
+            <form class="form" action="#" onsubmit="save(event);return false">
             <div class="form-head">Employee payroll form</div>
             <div class="row-content">
                 <label class="label text" for="name">Name</label>
